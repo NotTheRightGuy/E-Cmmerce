@@ -1,23 +1,21 @@
-body{
-    font-family: 'Lato' , sans-serif;
+body {
+    font-family: "Lato", sans-serif;
     padding: 0;
     margin: 0;
-
 }
-nav{
+nav {
     background-color: #111;
     color: white;
     padding: 20px 50px;
-
 }
 
-.navtop{
+.navtop {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.search{
+.search {
     display: flex;
     align-items: center;
     background-color: gray;
@@ -25,59 +23,59 @@ nav{
     border-radius: 10px;
 }
 
-.searchinput{
+.searchinput {
     border: none;
     background-color: transparent;
 }
 
-.searchinput::placeholder{
-    color:lightgray;
+.searchinput::placeholder {
+    color: lightgray;
 }
-.limitedoffer{
+.limitedoffer {
     font-size: 20px;
     border-bottom: 2px solid green;
     cursor: pointer;
 }
 
-.navbottom{
+.navbottom {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.menu{
+.menu {
     margin-right: 70px;
     cursor: pointer;
     color: lightgray;
     font-weight: 400;
-
 }
-.slider{
-    overflow: hidden;   
+.slider {
+    overflow: hidden;
     background: url("https://th.bing.com/th/id/R.78711b1ec57ff1a3b7a1753e2e7db25f?rik=D%2f80llQaQdY8Rw&riu=http%3a%2f%2fwww.photos-public-domain.com%2fwp-content%2fuploads%2f2012%2f05%2fblack-brick-wall-texture.jpg&ehk=BiBl%2fbmwfiHQk%2brKtP8xL4XW5quWZ%2fFlSF57AZ0fz%2bw%3d&risl=&pid=ImgRaw&r=0");
 }
-.sliderwrapper{
+.sliderwrapper {
     display: flex;
     width: 500vw;
     transition: all 1.5s ease-in-out;
 }
-.sliderimg{
-    z-index:1;
+.sliderimg {
+    height: 90vh;
+    z-index: 1;
 }
-.slideritem{    
+.slideritem {
     width: 100vw;
     display: flex;
-    align-items: center;  
+    align-items: center;
     justify-content: center;
     position: relative;
 }
-.slidebg{
-    width:700px;
-    height:700px;
+.slidebg {
+    width: 700px;
+    height: 700px;
     border-radius: 50%;
     position: absolute;
 }
-.slidertitle{
+.slidertitle {
     position: absolute;
     top: 10%;
     right: 10%;
@@ -88,18 +86,18 @@ nav{
     z-index: 1;
 }
 
-.sliderprice{
+.sliderprice {
     position: absolute;
     top: 10%;
     left: 10%;
-    color:white;
+    color: white;
     font-size: 60px;
     font-weight: 300;
     text-align: center;
     border: 1px solid gray;
     z-index: 1;
 }
-.Buy{
+.Buy {
     position: absolute;
     top: 50%;
     right: 10%;
@@ -109,53 +107,44 @@ nav{
     text-align: center;
     border: 1px solid gray;
     z-index: 1;
-    cursor:pointer;
+    cursor: pointer;
     background-color: black;
 }
-.Buy:hover{
-   background-color: white;
-   color:black;
-
+.Buy:hover {
+    background-color: white;
+    color: black;
 }
-.slideritem:nth-child(1) .slidebg{
+.slideritem:nth-child(1) .slidebg {
     background-color: #369e62;
-
 }
 
-.slideritem:nth-child(2) .slidebg{
+.slideritem:nth-child(2) .slidebg {
     background-color: rebeccapurple;
-
 }
 
-.slideritem:nth-child(3) .slidebg{
+.slideritem:nth-child(3) .slidebg {
     background-color: teal;
-
 }
 
-.slideritem:nth-child(4) .slidebg{
+.slideritem:nth-child(4) .slidebg {
     background-color: cornflowerblue;
 }
 
-.slideritem:nth-child(5) .slidebg{
-    background-color: rgb(124,115,80);
+.slideritem:nth-child(5) .slidebg {
+    background-color: rgb(124, 115, 80);
 }
-.slideritem:nth-child(1) .sliderprice{
+.slideritem:nth-child(1) .sliderprice {
     color: white;
-
 }
-.slideritem:nth-child(2) .sliderprice{
+.slideritem:nth-child(2) .sliderprice {
     color: white;
-
 }
-.slideritem:nth-child(3) .sliderprice{
+.slideritem:nth-child(3) .sliderprice {
     color: teal;
-
 }
-.slideritem:nth-child(4) .sliderprice{
+.slideritem:nth-child(4) .sliderprice {
     color: cornflowerblue;
-
 }
-.slideritem:nth-child(5) .sliderprice{
+.slideritem:nth-child(5) .sliderprice {
     color: cornsilk;
-
 }
